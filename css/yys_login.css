@@ -1,0 +1,163 @@
+*{
+    box-sizing:border-box;
+}
+body,h1,h2,h3,h4,h5,h6,dl,dt,dd,ol,ul,fieldset,legend,textarea,select,p,td,th,a{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{
+    font:12px Microsoft YaHei,Arial,Helvetica,sans-serif;
+    color:#666;
+    background-color:#EFEFEF;
+}
+::-webkit-input-placeholder{
+    font:16px Microsoft YaHei,Arial,Helvetica,sans-serif;
+    color: #ddd;
+}
+a{
+    color:#666;
+    text-decoration:none;
+}
+a:hover{
+    color:#EC4F12;
+    text-decoration:none;
+}
+#header{
+    height: 130px;
+    line-height: 130px;
+}
+#header .had{
+    margin: 0 auto;
+    width: 400px;
+    font-size: 20px;
+    text-align: center;
+}
+#header .had a{
+    color: #e4393c;
+}
+#section{
+    height: 970px;
+    width: 1000px;
+    background: #fff;
+    border-radius: 10px;
+    margin: 0 auto;
+    box-shadow: 0 0 100px #ddd;
+}
+#section .logo{
+    color: #CA5252;
+    font-size: 24px;
+    padding-left: 80px;
+    padding-top: 50px;
+}
+#section .login_main ul{
+    margin-top: 100px;
+}
+#section .login_main li{
+    height: 72px;
+    line-height: 40px;
+
+}
+#section .login_main li i{
+    font-size: 16px;
+    font-style: normal;
+    float: left;
+    width: 340px;
+    text-align: right;
+    height: 20px;
+}
+#section .login_main input{
+   float: left;
+    height: 44px;
+    width: 320px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 3px;
+}
+.login_main ul li:nth-child(6) p{
+    height: 22px;
+    line-height: 22px;
+}
+.login_main ul li:nth-child(6) p:nth-child(2){
+    color: #4cb5ff;
+}
+.btn{
+    float: left;
+    border: 0;
+    width: 322px;
+    height: 46px;
+    margin-top: 12px;
+    background-color: #ca5252;;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 46px;
+    cursor: pointer;
+}
+#section .login_main .cb{
+    cursor: pointer;
+    float: left;
+    width: 14px;
+    height: 14px;
+    line-height: 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+#section .login_main li:last-child div{
+    width: 332px;
+    display: flex;
+    flex-wrap: wrap;
+    height: 72px;
+}
+#section .login_main li:last-child div span{
+    height: 20px;
+    line-height: 20px;
+    width: 310px;
+}
+#section .login_main ul li:nth-child(4) input{
+    padding-right: 120px;
+}
+#section .login_main ul li:nth-child(4) span{
+    display: inline-block;
+    width: 120px;
+    height: 44px;
+    text-align: center;
+    right: 120px;
+    position: relative;
+}
+.code {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    cursor: pointer;
+}
+.login_main b{
+    width: 14px;
+    height: 14px;
+    margin-left: 10px;
+    background: url("../data/sprite.png")no-repeat -30px -102px;
+    float: left;
+    display: none;
+    /*background-position: -65px -102px;*/
+}
+.yzm{
+    display: inline-block;
+}
+.yzm a{
+    height: 14px;
+    float: left;
+    line-height: 14px;
+    margin-left: 5px;
+    display: none;
+}
+.yzm5{
+    margin-left: -110px!important;
+}
+#footer{
+    height: 120px;
+    line-height: 60px;
+}
+#footer div{
+    text-align: center;
+}

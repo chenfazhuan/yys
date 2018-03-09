@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head lang="zh-cn">
+    <meta charset="UTF-8">
+    <title>注册</title>
+    <link rel="stylesheet" href="css/yys_login.css"/>
+</head>
+<body>
+<header id="header">
+    <div class="had">已有帐号？去 <a href="#">登录</a> </div>
+</header>
+<section id="section">
+    <div class="logo">注册帐号</div>
+    <div class="login_main">
+        <ul>
+            <li>
+                <i>帐号 : &nbsp;</i>
+                <input type="text" id="uname" placeholder="邮箱/手机号"/>
+                <div class="yzm yzm0"><b></b> <a href="#">帐号须由6-18个字符组成</a></div>
+            </li>
+            <li>
+                <i>密码 : &nbsp;</i>
+                <input type="password" id="upwd"placeholder="6-16位密码,区分大写"/>
+                <div class="yzm yzm1"><b></b> <a href="#">密码须由6-18个字符,不能全数字</a></div>
+            </li>
+            <li>
+                <i>确认密码 : &nbsp;</i>
+                <input type="password" placeholder="再次输入密码"/>
+                <div class="yzm yzm2"><b></b> <a href="#">密码不一致</a></div>
+            </li>
+            <li>
+                <i>验证码 : &nbsp;</i>
+                <input type="text" placeholder="输入验证码"id="testcode"/>
+                <span id="code" class="nocode">验证码</span>
+                <div class="yzm yzm5"><b></b> <a href="#">请输入正确的验证码</a></div>
+            </li>
+            <li>
+                <i>手机号 : &nbsp;</i>
+                <input type="text" id="phone"placeholder="11位手机号"/>
+                <div class="yzm yzm4"><b></b> <a href="#">请输入正确的手机号码</a></div>
+            </li>
+            <li>
+                <i></i><p>切换到国际手机</p>
+                <i></i><p>忘记密码时，可通过手机快速找回密码</p>
+            </li>
+            <li>
+                <i>短信验证 : &nbsp;</i>
+                <input type="text" placeholder="11位手机号"/><span></span>
+            </li>
+            <li>
+                <i></i>
+                <div class="btn">注册</div>
+            </li>
+            <li>
+
+                <i></i>
+                <div>
+                <input type="checkbox" class="cb" checked/>
+                <span>用户勾选即代表同意《服务条款》和《网络游戏用户隐私保护和个人信息利用政策》</span></div>
+            </li>
+        </ul>
+    </div>
+</section>
+<footer id="footer">
+    <div>About NetEase-公司简介-联系方式-OAuth2.0认证-招聘信息-客户服务-相关法律-网络营销</div>
+    <div>公司版权所有 ©1997-2017</div>
+</footer>
+</body>
+</html>
+<script src="js/jquery-1.11.3.js"></script>
+<script src="js/login.js"></script>
